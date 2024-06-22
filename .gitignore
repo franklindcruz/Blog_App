@@ -1,0 +1,16 @@
+# .gitignore
+*.pyc
+__pycache__/
+*.log
+*.pot
+*.py[cod]
+*.swp
+*.swo
+*.swn
+.DS_Store
+.env
+venv/
+.env/
+db.sqlite3
+/static/
+media/
