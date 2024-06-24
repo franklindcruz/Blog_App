@@ -2,7 +2,7 @@
 {% load static %}
 {% load crispy_forms_tags %}
 {% block content %}
-<h1>Edit Blog</h1>
+<h1>Login</h1>
 <form action="" method="post" enctype="multipart/form-data">
     {% csrf_token %}
     {{form|crispy}}
@@ -10,7 +10,7 @@
     <img src="{{ instance.image.url }}" alt="Current Image" style="max-width: 200px; max-height: 200px;">
     {% endif %}
     <br>
-    <button type="submit" class="btn btn-success ">Edit</button>
-    <button type="reset" class="btn btn-danger">Reset</button>
+    <button type="submit" class="btn btn-success ">Login</button>
+    <button type="register" class="btn btn-danger">Register</button>
 </form>
 {% endblock %}

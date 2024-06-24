@@ -18,10 +18,10 @@
                 {{post.content}}
             </p>
             <div class="row">
-                <div class="col">
-                    <button class="btn btn-primary w-100" style="font-style: italic;">
+                <div class="col-md-6">
+                    <a href="{% url 'edit_post' post.id %}" class="btn btn-primary w-100" style="font-style: italic;">
                         <i class="bi bi-pencil-square"></i> Edit
-                    </button>
+                    </a>
                 </div>
                 <div class="col">
 
